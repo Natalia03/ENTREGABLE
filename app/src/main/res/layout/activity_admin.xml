@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.josesanjuanelo.proyectomovil.Admin">
+
+    <TabHost
+        android:id="@+id/tabhAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView46"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/registrarC"
+                                android:textSize="24sp" />
+
+                            <Button
+                                android:id="@+id/btnMostrarRegistro2"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.28"
+                                android:onClick="mostrarRegistro1"
+                                android:text="@string/registrar" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView45"
+                                android:layout_width="243dp"
+                                android:layout_height="wrap_content"
+                                android:text="@string/listarCiudades"
+                                android:textSize="24sp" />
+
+                            <Button
+                                android:id="@+id/btnMostrarListado6"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:onClick="mostrarListado1"
+                                android:text="@string/mostrar" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView51"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/mostrarPunt"
+                                android:textSize="24sp" />
+
+                            <Button
+                                android:id="@+id/btnMostrarRegistro3"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.84"
+                                android:onClick="mostrarRegistroPuntos"
+                                android:text="@string/registrar" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView52"
+                                android:layout_width="221dp"
+                                android:layout_height="wrap_content"
+                                android:text="@string/listarPunt"
+                                android:textSize="24sp" />
+
+                            <Button
+                                android:id="@+id/btnMostrarListado3"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:onClick="mostrarListadoPuntos"
+                                android:text="@string/mostrar" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView47"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/mostrarAyuda"
+                                android:textSize="24sp" />
+
+                            <Button
+                                android:id="@+id/button2"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.19"
+                                android:onClick="mostrarRegistroChec"
+                                android:text="@string/registrar" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView48"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/listarAyuda"
+                                android:textSize="24sp" />
+
+                            <Button
+                                android:id="@+id/button3"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:onClick="mostrarListadoChec"
+                                android:text="@string/mostrar" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/MostrarUsuario"
+                                android:textSize="24sp" />
+
+                            <Button
+                                android:id="@+id/btnMostrarRegistro8"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.84"
+                                android:onClick="mostrarRegistroLogin"
+                                android:text="@string/registrar" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView44"
+                                android:layout_width="221dp"
+                                android:layout_height="wrap_content"
+                                android:text="@string/listarUsuario"
+                                android:textSize="24sp" />
+
+                            <Button
+                                android:id="@+id/btnMostrarListado"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:onClick="ListarUsuarioLogin"
+                                android:text="@string/mostrar" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</RelativeLayout>

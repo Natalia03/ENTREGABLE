@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">ProyectoMovil</string>
+    <string name="departamentos">Departamentos</string>
+    <string name="buscar">Buscar</string>
+    <string name="tour">Tourisme NAJOS</string>
+    <string name="mostrar">Mostrar</string>
+    <string name="title_activity_registro_ciudades">RegistroCiudades</string>
+    <string name="regitro">Registro</string>
+    <string name="ingreso">Ingrese Lugar</string>
+    <string name="registrar">Registrar</string>
+    <string name="meta">Meta</string>
+    <string name="antioquia">Antioquia</string>
+    <string name="cauca">Cauca</string>
+    <string name="magdalena">Magdalena</string>
+    <string name="cordoba">Cordoba</string>
+    <string name="narinio">Nariño</string>
+    <string name="tolima">RegistroCiudades</string>
+    <string name="guania">Guania</string>
+    <string name="atlantico">Atlantico</string>
+    <string name="valledel">Ver sitios turisticos</string>
+    <string name="mensaje">Ciudad guardada con exito</string>
+    <string name="mensaje2">Puntuacion para el sitio guardado</string>
+    <string name="mensaje3">Ayuda para el sitio guardado</string>
+    <string name="mensaje4">Usuario registrado con exito</string>
+    <string name="error_1">Por favor digite una ciudad</string>
+    <string name="error_2">Por favor digite un nombre</string>
+    <string name="error_4">Por favor digite un apellido</string>
+    <string name="error_5">Por favor digite un usuario</string>
+    <string name="error_6">Por favor digite un contraseña</string>
+    <string name="error_7">Por favor digite un edad</string>
+    <string name="error_8">Por favor digite un sexo</string>
+    <string name="error_9">Usuario o Contraseña incorrecta</string>
+    <string name="error_10">Usuario invalido</string>
+    <string name="error_11">Contraseña invalida</string>
+    <string name="error_3">No se guardo su aporte</string>
+    <string name="thinicio">Inicio</string>
+    <string name="thifotos">Fotos</string>
+    <string name="thintempo">Usuarios</string>
+    <string name="thinciudad">Ciudades</string>
+    <string name="thbhAyuda">Ayudas y Puntuaciones</string>
+    <string name="tbhUsuarios">Usuarios</string>
+    <string name="enviar">Enviar</string>
+    <string name="puntuacion">Puntuacion Inicial</string>
+    <string name="total">No. de Puntuaciones</string>
+    <string name="Llave" />
+    <string name="nombre">Nombre</string>
+    <string name="punto">Puntos</string>
+    <string name="no">No.</string>
+    <string name="agregarNP">Agregar Nueva Puntuacion</string>
+    <string name="calificacionActual">La calificacion para el sitio es</string>
+    <string name="guatape">GUATAPE.</string>
+    <string name="guatapeintro">Hoy día, Guatapé cuenta con grandes potenciales para explotar el turismo religioso, el agroturismo, el ecoturismo, la cultura y la aventura. Cuenta con hoteles, restaurantes, barcos, lanchas y sitios turísticos para disfrutar, contemplar, meditar y descansar.</string>
+    <string name="gua">Los hoteles de 3 estrellas tienen un precio medio de $ 94.904.</string>
+    <string name="puntua">Puntos</string>
+    <string name="ayuda">Ayuda a los demas a saber que llevar!</string>
+    <string name="abrigo">Abrigo</string>
+    <string name="bloquador">Bloqueador</string>
+    <string name="kitM">Kit Medico</string>
+    <string name="repelente">Repelente</string>
+    <string name="total2">No. de Ayudas</string>
+    <string name="digite">Digite la Id de la vista</string>
+    <string name="id">ID</string>
+    <string name="codigo">Codigo</string>
+    <string name="aracataca">ARACATACA.</string>
+    <string name="texAracataca">Aracataca tiene una fama mundial por las novelas que han sido basadas en la cultura e historia del pueblo. Gente de todo el mundo vienen a conocer la Casa Museo de Gabriel García Márquez, La Estatua de Remedios La Bella, La Casa del Telegrafista o La Tumba de Melquíades.</string>
+    <string name="hoteles">Hoteles:</string>
+    <string name="comida">Comidas Tipicas:</string>
+    <string name="comidaT">Pionolo, Bandeja Paisa, Arepa Rellena, Arequipe</string>
+    <string name="hAracataca">Los pocos hoteles que hay varian en un promedio de $70.000</string>
+    <string name="quehacer">¿Que hacer?</string>
+    <string name="queh">Subir a la piedra del Peñol, Caminar por el pueblo y ver sus casitas de colores, La vuelta por el embalse de los barcos fiesteros, Actividades de aventura.</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="apellido">Apellido</string>
+    <string name="edad">Edad</string>
+    <string name="sexo">Sexo</string>
+    <string name="registrarC">Registrar Ciudades</string>
+    <string name="listarAyuda">Listar Ayuda</string>
+    <string name="mostrarAyuda">Registrar Ayuda</string>
+    <string name="listarPunt">Listar Puntuacion</string>
+    <string name="mostrarPunt">Registrar Puntuaciones</string>
+    <string name="listarUsuario">Listar Usuario</string>
+    <string name="MostrarUsuario">Mostrar Usuario</string>
+    <string name="listarCiudades">Listar Ciudades</string>
+    <string name="mensajeSubida1">Subiendo archivo</string>
+    <string name="mensajeSubida2">Cargando...</string>
+    <string name="sexo1">Masculino</string>
+    <string name="sexo2">Femenino</string>
+    <string-array name="deptos">
+        <item>@string/antioquia</item>
+        <item>@string/atlantico</item>
+        <item>@string/cauca</item>
+        <item>@string/cordoba</item>
+        <item>@string/guania</item>
+        <item>@string/magdalena</item>
+        <item>@string/meta</item>
+        <item>@string/narinio</item>
+        <item>@string/tolima</item>
+        <item>@string/valledel</item>
+    </string-array>
+    <string name="title_activity_principal2">Principal2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="registrate">Registrate!</string>
+    <string name="ver">Ver sitios turisticos</string>
+    <string name="fotoMensaje">Aqui una muestra de los sitios turisticos que puedes encontrar en la app</string>
+    <string name="mensajeTemporada">Si te perdiste la Temporada pasada, ¡no te preocupes!, porque tenemos la nueva temporada ya!, más para que viajes todo el año a los mejores destinos.</string>
+    <string name="tempVerano">La temporada de verano ya llego!!!!!!</string>
+    <string name="tempoYaLoSabes">Ya lo sabes, lo mejor está en Tourisme NAJOS para tus Viajes.</string>
+    <string name="subir">Seleccionar imagen</string>
+    <string name="puntuaeste">Puntua este sitio</string>
+    <string name="tipicaaracataca">Guineo cocido con queso (Cayeye),  Sancocho de gallina criolla, de pescado y de mondongo. Mazamorra de guineo, Pastel de arroz y carnes.</string>
+    <string name="haceraracataca"> Balnerario del rio y asequia, Casa del telegrafista, Casa museo de Gabriel Garcia Marquez</string>
+    <string name="tayrona">TAYRONA</string>
+    <string name="textayrona">A un costado las olas azotan las rocas volcánicas que se alinean junto a la playa; al girar la cabeza hacia el otro lado la vista parece encontrar un espejismo, pues da la impresión de que un pedazo de la selva del Amazonas se hubiera levantado en medio del Caribe. Esta, la de Cañaveral, es una de varias playas del Parque Nacional Natural Tayrona, una reserva natural de Colombia que tiene 12.000 ha.</string>
+    <string name="tipicatayrona">Pescados en todas sus variantes, Sopa de pescado, Cocteles de mar.</string>
+    <string name="hacertayrona">Bahia Concha, Playa Cabo Sanjuan, Playa la piscina, Playa Arrecife, El pueblito, Playa Cristal, Playa nudista y Arinilla.</string>
+    <string name="valledupar">VALLEDUPAR</string>
+    <string name="hacervalledupar">Parque de la leyenda Vallenata, Balneario Hurtado, Plaza Alfonso Lopez.</string>
+    <string name="tipicoValledupar"> El sancocho puede ser el plato vallenato por excelencia, la carne pelo e maco, el queso o el guisado, pero lo cierto es que los expertos en el tema, aquellos que trabajan a diario en las  mejores cocinas locales o imparten clases no se ponen de acuerdo.</string>
+    <string name="textvalledupar">También llamada Ciudad de los Santos Reyes del Valle de Upar, es un municipio colombiano, capital del departamento del Cesar. Es la cabecera del municipio homónimo, el cual tiene una extensión de 4493 km2, 443 414 habitantes y junto a su área metropolitana reúne 662 9413 habitantes; está conformado por 25 corregimientos y 102 veredas.</string>
+    <string name="popayan">POPAYAN</string>
+    <string name="texpopayan">Una sensación de paz envuelve a quienes caminan por las calles de Popayán, entre las elegantes fachadas blancas de sus iglesias y casas. Fundada en 1537 por Sebastián de Belalcázar, la capital del Cauca es uno de los centros religiosos más importantes de Colombia. Desde esta ciudad, donde se disfruta de una gastronomía de alto nivel, es posible conocer paisajes con montañas, valles y lagunas.</string>
+    <string name="tipicapopayan">El sancocho de gallina, la sopa de tortilla, la sopa de carantanta y la sopa de envueltos, que podemos encontrar en restaurantes o especialmente en las veredas del municipio de Popayán.</string>
+    <string name="quehacerpopayan">Visitar iglesias, museos y parques naturales; y disfrutar de buena comida típica son planes que atraen a los turistas que llegan a conocer Popayán y el departamento del Cauca.</string>
+</resources>

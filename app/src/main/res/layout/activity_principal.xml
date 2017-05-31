@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.josesanjuanelo.proyectomovil.Principal">
+
+    <TabHost
+        android:id="@+id/tabhPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="casual"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary" >
+
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:layout_width="500dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/beach">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="vertical"
+                                android:weightSum="1">
+
+                                <TextView
+                                    android:id="@+id/textView"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="casual"
+                                    android:text="@string/tour"
+                                    android:textAlignment="center"
+                                    android:textColor="?attr/actionMenuTextColor"
+                                    android:textSize="46sp"
+                                    android:textStyle="bold" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textView2"
+                                        android:layout_width="79dp"
+                                        android:layout_height="wrap_content" />
+
+                                    <TextView
+                                        android:id="@+id/textView4"
+                                        android:layout_width="220dp"
+                                        android:layout_height="220dp"
+                                        android:background="@drawable/ini" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textView36"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="4.58" />
+
+                                </LinearLayout>
+
+                                <Button
+                                    android:id="@+id/btnMostrar"
+                                    style="@style/Widget.AppCompat.Button.Colored"
+                                    android:layout_width="377dp"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="casual"
+                                    android:onClick="mostrarListado1"
+                                    android:text="@string/ver"
+                                    android:textColor="@android:color/black" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/textView53"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/fotoMensaje"
+                                android:textAlignment="center"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                            <ImageView
+                                android:id="@+id/imgtay1"
+                                android:layout_width="400dp"
+                                android:layout_height="400dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                            <ImageView
+                                android:id="@+id/imgAra1"
+                                android:layout_width="400dp"
+                                android:layout_height="400dp" />
+
+                            <TextView
+                                android:id="@+id/textView55"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                            <ImageView
+                                android:id="@+id/imgTay2"
+                                android:layout_width="400dp"
+                                android:layout_height="400dp"
+                                app:srcCompat="@drawable/b3" />
+
+                            <TextView
+                                android:id="@+id/textView56"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                            <ImageView
+                                android:id="@+id/imgAra2"
+                                android:layout_width="400dp"
+                                android:layout_height="400dp"
+                                app:srcCompat="@drawable/tuno" />
+
+                            <ImageView
+                                android:id="@+id/imgValle1"
+                                android:layout_width="400dp"
+                                android:layout_height="400dp"
+                                app:srcCompat="@drawable/t2" />
+
+                            <ImageView
+                                android:id="@+id/imgBara1"
+                                android:layout_width="400dp"
+                                android:layout_height="400dp"
+                                app:srcCompat="@drawable/t3" />
+
+                            <ImageView
+                                android:id="@+id/imgValle2"
+                                android:layout_width="400dp"
+                                android:layout_height="400dp"
+                                app:srcCompat="@drawable/v1" />
+
+                            <ImageView
+                                android:id="@+id/imgBara2"
+                                android:layout_width="400dp"
+                                android:layout_height="400dp"
+                                app:srcCompat="@drawable/v2" />
+
+                            <ImageView
+                                android:id="@+id/imgPopa1"
+                                android:layout_width="400dp"
+                                android:layout_height="400dp"
+                                app:srcCompat="@drawable/v3" />
+
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ListView
+                                android:id="@+id/lvUsers"
+                                android:layout_width="match_parent"
+                                android:layout_height="1050dp" />
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

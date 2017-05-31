@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "613129861991",
+    "firebase_url": "https://tourismenajos.firebaseio.com",
+    "project_id": "tourismenajos",
+    "storage_bucket": "tourismenajos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613129861991:android:c57942459d465932",
+        "android_client_info": {
+          "package_name": "com.example.josesanjuanelo.proyectomovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613129861991-o3ce76qj7p36u3uun3stjvlqr2hirm1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqiAR1k3fG3ad0m86AtkfRL_ATtoeCUOk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
